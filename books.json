@@ -1,0 +1,76 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "name": "Harry Potter and the Sorcerer's Stone",
+      "author": "J.K. Rowling",
+      "description": "The first book in the iconic fantasy series following the adventures of a young wizard, Harry Potter."
+    },
+    {
+      "id": 2,
+      "name": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "description": "A classic novel exploring racial injustice and moral growth in the American South during the 1930s."
+    },
+    {
+      "id": 3,
+      "name": "1984",
+      "author": "George Orwell",
+      "description": "A dystopian novel depicting a totalitarian society, surveillance, and the struggle for individual freedom."
+    },
+    {
+      "id": 4,
+      "name": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "description": "Set in the Roaring Twenties, this novel delves into the American Dream, wealth, and social classes."
+    },
+    {
+      "id": 5,
+      "name": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "description": "A coming-of-age novel narrated by a disenchanted teenager, exploring themes of alienation and identity."
+    },
+    {
+      "id": 6,
+      "name": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "description": "A fantasy novel detailing the journey of Bilbo Baggins as he accompanies a group of dwarves on a quest."
+    },
+    {
+      "id": 7,
+      "name": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "description": "A classic romantic novel exploring themes of class, manners, and the complexities of love."
+    },
+    {
+      "id": 8,
+      "name": "The Da Vinci Code",
+      "author": "Dan Brown",
+      "description": "A thriller that combines art, history, and cryptography as Harvard symbologist Robert Langdon investigates a murder."
+    },
+    {
+      "id": 9,
+      "name": "The Hunger Games",
+      "author": "Suzanne Collins",
+      "description": "The first book in a dystopian trilogy where teenagers are forced to participate in a televised fight to the death."
+    },
+    {
+      "id": 10,
+      "name": "The Hitchhiker's Guide to the Galaxy",
+      "author": "Douglas Adams",
+      "description": "A comedic science fiction series that follows the intergalactic misadventures of Arthur Dent after Earth's destruction."
+    },
+    {
+      "id": 11,
+      "name": "Sapienssssss: A Brief History of Humankind",
+      "author": "Yuval Noah Harari",
+      "description": "An exploration of the history and impact of Homo sapiens, from the emergence of Homo sapiens in Africa to the present day."
+    },
+    {
+      "id": 12,
+      "name": "abcd",
+      "author": "Douglas Adams",
+      "description": "A comedic science fiction series that follows the intergalactic misadventures of Arthur Dent after Earth's destruction."
+    }
+  ]
+}
