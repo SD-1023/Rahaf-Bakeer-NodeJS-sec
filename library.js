@@ -12,7 +12,6 @@ routeLibrary.get("/:id", async (req, res) => {
 
 routeLibrary.get("/", async (req, res) => {
   const books = await services.getBooks();
-  console.log(books);
   res.render("books",{"status":books?.success === true ? 200 : 500,"data":books?.success === true ? books : { message: books.message }});
     // res.status(books?.success === true ? 200 : 204)
     // .send(books?.success === true ? books : { message: books.message });
