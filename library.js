@@ -6,16 +6,16 @@ const services = require("./services.js");
 routeLibrary.get("/:id", async (req, res) => {
   const book = await services.getBookWithID(parseInt(req.params.id));
   res
-    .status(book?.success === true ? 200 : 500)
-    .send(book?.success ? { book: book.book } : { errorMsg: book.message });
+    .status(book?.success === true ? 200 : 204)
+    .send(book?.success ? { book: book.book } : { message: book.message });
 });
 
 routeLibrary.get("/", async (req, res) => {
   const books = await services.getBooks();
   console.log(books);
-  res
-    .status(books?.success === true ? 200 : 400)
-    .send(books?.success === true ? books : { errorMsg: books.message });
+  res.render("books",{"status":books?.success === true ? 200 : 500,"data":books?.success === true ? books : { message: books.message }});
+    // res.status(books?.success === true ? 200 : 204)
+    // .send(books?.success === true ? books : { message: books.message });
 });
 
 //POST

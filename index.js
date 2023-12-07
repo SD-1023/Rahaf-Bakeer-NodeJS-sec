@@ -2,6 +2,8 @@ const express = require("express");
 const library = require("./library.js");
 
 const app = express();
+app.set("view engine", "pug");
+
 
 app.use("/books", library);
 
