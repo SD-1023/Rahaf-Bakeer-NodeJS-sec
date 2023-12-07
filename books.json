@@ -59,18 +59,6 @@
       "name": "The Hitchhiker's Guide to the Galaxy",
       "author": "Douglas Adams",
       "description": "A comedic science fiction series that follows the intergalactic misadventures of Arthur Dent after Earth's destruction."
-    },
-    {
-      "id": 11,
-      "name": "Sapienssssss: A Brief History of Humankind",
-      "author": "Yuval Noah Harari",
-      "description": "An exploration of the history and impact of Homo sapiens, from the emergence of Homo sapiens in Africa to the present day."
-    },
-    {
-      "id": 12,
-      "name": "abcd",
-      "author": "Douglas Adams",
-      "description": "A comedic science fiction series that follows the intergalactic misadventures of Arthur Dent after Earth's destruction."
     }
   ]
 }
