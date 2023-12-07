@@ -94,8 +94,6 @@ async function addBooks(dataInfo) {
       let data = {};
       data["id"] = id;
       data["name"] = dataInfo.name;
-      data["author"] = dataInfo.author;
-      data["description"] = dataInfo.description;
       books?.books?.push(data);
       const dataToWrite = books?.length !== 0 ? books : { books: [data] };
       fs.writeFile("books.json", JSON.stringify(dataToWrite));

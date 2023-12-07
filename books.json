@@ -2,63 +2,42 @@
   "books": [
     {
       "id": 1,
-      "name": "Harry Potter and the Sorcerer's Stone",
-      "author": "J.K. Rowling",
-      "description": "The first book in the iconic fantasy series following the adventures of a young wizard, Harry Potter."
+      "name": "Harry Potter and the Sorcerer's Stone"
     },
     {
       "id": 2,
-      "name": "To Kill a Mockingbird",
-      "author": "Harper Lee",
-      "description": "A classic novel exploring racial injustice and moral growth in the American South during the 1930s."
+      "name": "To Kill a Mockingbird"
     },
     {
       "id": 3,
-      "name": "1984",
-      "author": "George Orwell",
-      "description": "A dystopian novel depicting a totalitarian society, surveillance, and the struggle for individual freedom."
-    },
+      "name": "1984"    },
     {
       "id": 4,
-      "name": "The Great Gatsby",
-      "author": "F. Scott Fitzgerald",
-      "description": "Set in the Roaring Twenties, this novel delves into the American Dream, wealth, and social classes."
+      "name": "The Great Gatsby"
     },
     {
       "id": 5,
-      "name": "The Catcher in the Rye",
-      "author": "J.D. Salinger",
-      "description": "A coming-of-age novel narrated by a disenchanted teenager, exploring themes of alienation and identity."
+      "name": "The Catcher in the Rye"
     },
     {
       "id": 6,
-      "name": "The Hobbit",
-      "author": "J.R.R. Tolkien",
-      "description": "A fantasy novel detailing the journey of Bilbo Baggins as he accompanies a group of dwarves on a quest."
+      "name": "The Hobbit"
     },
     {
       "id": 7,
-      "name": "Pride and Prejudice",
-      "author": "Jane Austen",
-      "description": "A classic romantic novel exploring themes of class, manners, and the complexities of love."
+      "name": "Pride and Prejudice"
     },
     {
       "id": 8,
-      "name": "The Da Vinci Code",
-      "author": "Dan Brown",
-      "description": "A thriller that combines art, history, and cryptography as Harvard symbologist Robert Langdon investigates a murder."
+      "name": "The Da Vinci Code"
     },
     {
       "id": 9,
-      "name": "The Hunger Games",
-      "author": "Suzanne Collins",
-      "description": "The first book in a dystopian trilogy where teenagers are forced to participate in a televised fight to the death."
+      "name": "The Hunger Games"
     },
     {
       "id": 10,
-      "name": "The Hitchhiker's Guide to the Galaxy",
-      "author": "Douglas Adams",
-      "description": "A comedic science fiction series that follows the intergalactic misadventures of Arthur Dent after Earth's destruction."
+      "name": "The Hitchhiker's Guide to the Galaxy"
     }
   ]
 }
