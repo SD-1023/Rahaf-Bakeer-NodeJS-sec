@@ -4,10 +4,15 @@ const bodyParser = require("body-parser");
 const services = require("./services.js");
 
 routeLibrary.get("/:id", async (req, res) => {
+  if (isNaN(req.params.id)){
+    res.status(404).send( { message: "Invalid id" });
+  }
+  else{
   const book = await services.getBookWithID(parseInt(req.params.id));
   res
     .status(book?.success === true ? 200 : 204)
     .send(book?.success ? { book: book.book } : { message: book.message });
+  }
 });
 
 routeLibrary.get("/", async (req, res) => {
