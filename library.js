@@ -2,6 +2,7 @@ const express = require("express");
 const routeLibrary = express.Router();
 const bodyParser = require("body-parser");
 const services = require("./services.js");
+const e = require("express");
 
 routeLibrary.get("/:id", async (req, res) => {
   if (isNaN(req.params.id)){
@@ -28,10 +29,16 @@ routeLibrary.use(bodyParser.urlencoded({ extended: false }));
 
 routeLibrary.post("/", async (req, res) => {
   let data = req.body;
+  if (data.name){
   const book = await services.addBooks(data);
   res
     .status(book?.success === true ? 200 : 500)
     .send({ message: book.message });
-});
+  }
+    else{
+      res.status( 400)
+      .send({ message: "the book name should be provided"});
+    }
+  });
 
 module.exports = routeLibrary;
